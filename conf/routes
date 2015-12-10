@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /bad_request            com.mattgawarecki.play.jammies.example.controllers.Application.getBadRequestResponse
+GET     /forbidden              com.mattgawarecki.play.jammies.example.controllers.Application.getForbiddenResponse
+GET     /internal_server_error  com.mattgawarecki.play.jammies.example.controllers.Application.getInternalServerErrorResponse
+GET     /quick                  com.mattgawarecki.play.jammies.example.controllers.Application.getQuickCustomErrorResponse
+GET     /full                   com.mattgawarecki.play.jammies.example.controllers.Application.getFullCustomErrorResponse
